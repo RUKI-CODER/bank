@@ -54,49 +54,6 @@ It provides a clean, intuitive interface for managing employees, customers, acco
 
 ---
 
-## Project Structure
-bank/
-├── dao/
-│   ├── AccountDAO.java
-│   ├── CustomerDAO.java
-│   ├── EmployeeDAO.java
-│   ├── TransactionDAO.java
-│   └── impl/
-│       ├── AccountDAOImpl.java
-│       ├── CustomerDAOImpl.java
-│       ├── EmployeeDAOImpl.java
-│       └── TransactionDAOImpl.java
-│
-├── model/
-│   ├── Account.java
-│   ├── Customer.java
-│   ├── Employee.java
-│   └── Transaction.java
-│
-└── ui/
-    ├── BankApplication.java
-    ├── LoginForm.java
-    ├── DashboardForm.java
-    ├── DashboardPanel.java
-    ├── SidebarPanel.java
-    ├── NavigationListener.java
-    ├── SummaryCardPanel.java
-    ├── RoundedPanel.java
-    ├── AccountPanel.java
-    ├── AddAccountDialog.java
-    ├── CustomersPanel.java
-    ├── AddCustomerDialog.java
-    ├── EmployeePanel.java
-    ├── AddEmployeeDialog.java
-    ├── TransactionPanel.java
-    ├── AddTransactionDialog.java
-    ├── ChangePasswordDialog.java
-    └── LogoutDialog.java
-
-
-Note: Dialog classes are referenced but not included in the snippet – they are assumed to exist.
-
----
 
 ## Getting Started
 
